@@ -1,0 +1,30 @@
+.landing-image-container {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+}
+img {
+	image-rendering: auto;
+	image-rendering: crisp-edges;
+	image-rendering: optimizeQuality;
+	image-rendering: pixelated;
+}
+.mia-image-1 img {
+	height: 37vh;
+	width: auto;
+	mix-blend-mode: luminosity;
+}
+
+.mia-image-2 {
+	position: relative;
+	margin-top: 30vh;
+	right: 20vh;
+	overflow: visible;
+}
+.mia-image-2 img {
+	height: 45vh;
+	width: auto;
+	aspect-ratio: 4/3;
+	filter: brightness(1.2);
+	mix-blend-mode: multiply;
+}

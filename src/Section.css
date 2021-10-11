@@ -1,0 +1,36 @@
+.Section {
+	text-align: center;
+	font-family: "AkzidenzGrotesk";
+	min-height: 100vh;
+	max-height: 900vh;
+
+	min-width: 100vw;
+	background-image: url(./bgr.png);
+	background-position: center center;
+	background-size: cover;
+	display: flex;
+}
+
+.Section-container {
+	display: flex;
+	flex-direction: column;
+
+	min-height: 100vh;
+	color: black;
+}
+
+.ivan-namecard-section {
+	align-items: flex-end;
+	justify-content: flex-end;
+	text-align: right;
+	width: 100vw;
+}
+.landing-image-section {
+	height: 66%;
+	align-self: flex-start;
+}
+.feature {
+	position: fixed;
+	left: 1vw;
+	top: 38vh;
+}

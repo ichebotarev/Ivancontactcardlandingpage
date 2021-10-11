@@ -1,0 +1,30 @@
+.sideline-text-container {
+	display: flex;
+	justify-content: space-between;
+	height: 100%;
+	width: 100vw;
+	padding: 15px;
+	padding-right: 15px;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+@media (max-device-width: 812px) {
+	.sideline-text-container {
+		font-size: 10px;
+	}
+}
+.sideline-text-mix {
+	opacity: 0;
+}
+.right-sideline-text {
+	writing-mode: vertical-lr;
+	margin-right: 0;
+	align-self: flex-start;
+	text-align: end;
+}
+
+.left-sideline-text {
+	writing-mode: vertical-rl;
+}

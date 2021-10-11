@@ -1,0 +1,16 @@
+@font-face {
+	font-family: "AkzidenzGrotesk";
+	src: local("AkzidenzGrotesk"),
+		url("./fonts/Akzidenz Grotesk Regular.woff") format("woff"),
+		url("./fonts/Akzidenz Grotesk Regular.woff2") format("woff2"),
+		url("./fonts/Akzidenz Grotesk Regular.eot") format("embedded-opentype"),
+		url("./fonts/Akzidenz Grotesk Regular.otf") format("opentype");
+}
+
+@font-face {
+	font-family: "Almarai";
+	src: local("Almarai"), url("./fonts/Almarai.woff") format("woff"),
+		url("./fonts/Almarai.woff2") format("woff2"),
+		url("./fonts/Almarai.ttf") format("truetype"),
+		url("./fonts/Almarai.eot") format("embedded-opentype");
+}

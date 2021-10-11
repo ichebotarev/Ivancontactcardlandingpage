@@ -1,0 +1,40 @@
+.feature-container {
+	position: absolute;
+	width: 95vw;
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	overflow-x: clip;
+}
+
+.feature-item {
+	width: 95%;
+}
+.feature-vector-container {
+	height: 100%;
+	width: 95%;
+
+	position: absolute;
+	bottom: 15vh;
+	left: 10vw;
+}
+
+@media (max-device-width: 812px) {
+	.feature-vector-container {
+		position: absolute;
+		height: 1vh;
+		width: 1vw;
+
+		bottom: 0vh;
+		left: 15vw;
+	}
+}
+
+@media (max-device-width: 812px) {
+	.feature-text {
+		position: relative;
+		bottom: 30vh;
+		left: 1.5vh;
+		opacity: 0;
+	}
+}

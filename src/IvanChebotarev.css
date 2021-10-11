@@ -1,0 +1,18 @@
+h1 {
+	font-size: 6.2vw;
+	margin-right: 10px;
+}
+
+.ivan-card-info {
+	font-size: 1vh;
+	line-height: 1.5;
+	font-weight: bolder;
+	margin-right: 10px;
+}
+
+.ivan-card-container {
+	width: 100vw;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+}
